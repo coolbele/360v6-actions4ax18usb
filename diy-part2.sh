@@ -11,7 +11,8 @@
 #
 
 # Modify default static IP
-#sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+sed -i 's/16384/65536/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
 
 # Modify default hostname
 #sed -i 's/OpenWrt/AX18USB/g' package/base-files/files/bin/config_generate
