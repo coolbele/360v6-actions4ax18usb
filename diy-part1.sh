@@ -16,4 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
-# sed -i '1i src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '1i src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
