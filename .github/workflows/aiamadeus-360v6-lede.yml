@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: aiamadeus-360v6-lede
 
 on:
   repository_dispatch:
