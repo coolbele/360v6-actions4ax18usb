@@ -13,6 +13,9 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+# 或者使用下面的命令修改，注意 Makefile 文件的路径。
+sed -i 's/KERNEL_PATCHVER:=6.1/KERNEL_PATCHVER:=5.4/g' ./target/linux/x86/Makefile
+
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
