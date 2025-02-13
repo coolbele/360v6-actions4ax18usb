@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/w2xg2022/ax18usb
+  REPO_URL: https://github.com/coolbele/ax18usb
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 360v6.config
